@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shams Consultants | Professional Business Consulting</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    z-index:1000;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#0d47a1;
+}
+
+.logo span{
+    color:#f5a623;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin-left:25px;
+    font-weight:500;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+    background:
+    linear-gradient(rgba(0,39,89,.75),rgba(0,39,89,.75)),
+    url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    width:90%;
+    max-width:750px;
+}
+
+.hero h1{
+    font-size:58px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.btn{
+    display:inline-block;
+    background:#f5a623;
+    color:white;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:#0d47a1;
+}
+
+.about{
+    padding:90px 8%;
+    background:white;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.about h2{
+    color:#0d47a1;
+    margin-bottom:20px;
+    font-size:38px;
+}
+
+.about p{
+    line-height:1.9;
+    margin-bottom:25px;
+}
+
+.contact{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.contact h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.phone{
+    font-size:34px;
+    font-weight:bold;
+    margin:25px 0;
+}
+
+footer{
+    background:#07295c;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:42px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+header{
+padding:15px 5%;
+}
+
+nav{
+display:none;
+}
+
+.phone{
+font-size:26px;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+Shams<span>Consultants</span>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Professional Business Consulting</h1>
+
+<p>
+Helping businesses, entrepreneurs and organizations achieve sustainable growth through strategic planning, expert guidance and practical business solutions.
+</p>
+
+<a href="tel:+2349047032219" class="btn">
+Call Now
+</a>
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80" alt="Consulting Team">
+
+<div>
+
+<h2>About Shams Consultants</h2>
+
+<p>
+Shams Consultants is committed to helping businesses make informed decisions, improve performance and unlock new opportunities for growth.
+</p>
+
+<p>
+Whether you're launching a startup, expanding your company or seeking expert business advice, our experienced consultants provide practical solutions tailored to your goals.
+</p>
+
+<a href="tel:+2349047032219" class="btn">
+Speak With Us
+</a>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Let's Grow Your Business Together</h2>
+
+<p>
+Need professional consulting services? Contact us today.
+</p>
+
+<div class="phone">
+📞 +234 904 703 2219
+</div>
+
+<a href="https://wa.me/2349047032219" class="btn">
+Chat on WhatsApp
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Shams Consultants. All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
